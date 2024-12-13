@@ -1,10 +1,10 @@
 //natív (hogyan?)
 
-const btn = document.createElement('button');
+const btn = document.createElement('button');   //btn változóba létrehozunk egy gombot
 
 btn.onclick = function()
 {
-    alert("Ez egy natív kód!");
+    alert("Ez egy natív kód!");     //gomb funkciója
 }
 
 btn.innerHTML = "Natív Gomb";
@@ -25,5 +25,5 @@ const gomb = React.createElement("button",
 
 //első paraméter az elemet amit hasznáéni szeretnénk
 //második paraméter egy referencia egy natív DOM elemre, hivatkozásipont megadása
-ReactDOM.render(gomb,document.getElementById("react-button-container"));
+ReactDOM.render(gomb, document.getElementById('react-button-container'));
 
